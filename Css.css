@@ -1,0 +1,59 @@
+fieldset{
+    border: 0.25em solid;
+    align : center;
+    position: absolute;
+    left: 20%;
+    top: 30%;
+    margin-left: -115px;
+    margin-top: -80px;
+    padding:10px;
+    background-color: #eee;
+}
+
+#host{
+    color: red;
+}
+
+input[type=submit] {
+    padding:5px 15px 10px 10px; 
+    background:#ccc; 
+    border:2;
+    cursor:pointer;
+    border-radius: 5px; 
+    margin: 1em;
+    font-size: 1em;
+}
+legend{
+    font-size: 2em;
+    color: green;
+    font-weight: bold;
+}
+
+#tablas{
+    position: absolute; 
+    float: left;
+    top: 60%;
+    left: 30%;
+    width: 300px;
+
+}
+
+#tab{
+    bottom:100%;
+    right:100%;
+}   
+#tablas input{
+    margin: 10px;
+}
+
+body{
+    background-color: activecaption;
+}
+
+table,tr,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+label{
+    color: red;
+}
