@@ -2,7 +2,9 @@
 
 function show_msj() {
     global $msj;
+    echo"HOLA MUNDO";
     return $msj;
+   
 }
 
 /**
